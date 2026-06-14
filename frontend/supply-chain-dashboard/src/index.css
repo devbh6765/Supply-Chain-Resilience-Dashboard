@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { background-color: #0b0f1a; }
+  body { @apply font-sans text-slate-200 antialiased; }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: #111827; }
+  ::-webkit-scrollbar-thumb { background: #2a3a52; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #22d3ee44; }
+}
+
+@layer components {
+  .card {
+    @apply bg-surface-700 border border-surface-500 rounded-xl p-5 shadow-card;
+  }
+  .card-title {
+    @apply text-xs font-semibold uppercase tracking-widest text-slate-400 mb-4;
+  }
+  .stat-value {
+    @apply text-3xl font-bold text-slate-100 font-mono;
+  }
+  .stat-label {
+    @apply text-xs text-slate-400 mt-1;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold;
+  }
+  .badge-ok      { @apply bg-emerald-900/60 text-emerald-400; }
+  .badge-warn    { @apply bg-amber-900/60   text-amber-400;   }
+  .badge-danger  { @apply bg-red-900/60     text-red-400;     }
+  .badge-info    { @apply bg-indigo-900/60  text-indigo-400;  }
+  .badge-neutral { @apply bg-surface-500    text-slate-300;   }
+
+  .table-base {
+    @apply w-full text-sm;
+  }
+  .table-base thead tr {
+    @apply border-b border-surface-500;
+  }
+  .table-base th {
+    @apply text-left text-xs font-semibold uppercase tracking-wider text-slate-400 py-2 px-3;
+  }
+  .table-base td {
+    @apply py-2.5 px-3 text-slate-300;
+  }
+  .table-base tbody tr {
+    @apply border-b border-surface-500/40 hover:bg-surface-600/40 transition-colors;
+  }
+}

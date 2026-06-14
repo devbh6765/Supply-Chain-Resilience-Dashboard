@@ -1,0 +1,181 @@
+CaseID,Activity,Timestamp,Supplier,Warehouse,DelayHours,InventoryLevel,Status
+CASE_001,Order Created,18-01-2024 11:14,Supplier_C,Delhi_WH,0.4,948,Completed
+CASE_001,Inventory Check,18-01-2024 12:20,Supplier_C,Delhi_WH,1.2,942,Completed
+CASE_001,Supplier Confirmation,18-01-2024 14:51,Supplier_C,Delhi_WH,0.4,936,Completed
+CASE_001,Packaging,18-01-2024 21:41,Supplier_C,Delhi_WH,1.4,929,Completed
+CASE_001,Shipping,19-01-2024 05:54,Supplier_C,Delhi_WH,0.4,924,Completed
+CASE_001,Delivery,20-01-2024 15:34,Supplier_C,Delhi_WH,0.6,918,Completed
+CASE_002,Order Created,22-01-2024 12:09,Supplier_A,Delhi_WH,1.6,910,Completed
+CASE_002,Inventory Check,22-01-2024 14:34,Supplier_A,Delhi_WH,0.9,896,Completed
+CASE_002,Supplier Confirmation,22-01-2024 18:45,Supplier_A,Delhi_WH,1.9,892,Completed
+CASE_002,Packaging,22-01-2024 23:16,Supplier_A,Delhi_WH,0.2,882,Completed
+CASE_002,Shipping,23-01-2024 05:08,Supplier_A,Delhi_WH,1.7,874,Completed
+CASE_002,Delivery,24-01-2024 07:45,Supplier_A,Delhi_WH,1.8,862,Completed
+CASE_003,Order Created,05-01-2024 08:42,Supplier_B,Bangalore_WH,1.7,899,Completed
+CASE_003,Inventory Check,05-01-2024 11:14,Supplier_B,Bangalore_WH,0.7,890,Completed
+CASE_003,Supplier Confirmation,05-01-2024 13:48,Supplier_B,Bangalore_WH,1.3,881,Completed
+CASE_003,Packaging,05-01-2024 17:35,Supplier_B,Bangalore_WH,1.9,860,Completed
+CASE_003,Shipping,06-01-2024 00:07,Supplier_B,Bangalore_WH,0.1,839,Completed
+CASE_003,Delivery,06-01-2024 15:51,Supplier_B,Bangalore_WH,0.3,818,Completed
+CASE_004,Order Created,25-01-2024 12:59,Supplier_C,Delhi_WH,1.6,854,Completed
+CASE_004,Inventory Check,25-01-2024 16:02,Supplier_C,Delhi_WH,0.5,834,Completed
+CASE_004,Supplier Confirmation,25-01-2024 19:12,Supplier_C,Delhi_WH,1.8,822,Completed
+CASE_004,Packaging,26-01-2024 03:07,Supplier_C,Delhi_WH,1.8,798,Completed
+CASE_004,Shipping,26-01-2024 13:49,Supplier_C,Delhi_WH,0.4,782,Completed
+CASE_004,Delivery,28-01-2024 06:09,Supplier_C,Delhi_WH,0.8,762,Completed
+CASE_005,Order Created,09-01-2024 11:47,Supplier_C,Mumbai_WH,1,865,Completed
+CASE_005,Inventory Check,09-01-2024 14:07,Supplier_C,Mumbai_WH,1.5,855,Completed
+CASE_005,Supplier Confirmation,09-01-2024 17:24,Supplier_C,Mumbai_WH,0.2,815,Completed
+CASE_005,Packaging,09-01-2024 23:07,Supplier_C,Mumbai_WH,0.3,780,Completed
+CASE_005,Shipping,10-01-2024 08:42,Supplier_C,Mumbai_WH,0.8,745,Completed
+CASE_005,Delivery,11-01-2024 11:53,Supplier_C,Mumbai_WH,0.8,735,Completed
+CASE_006,Order Created,05-02-2024 08:43,Supplier_C,Mumbai_WH,0.3,705,Completed
+CASE_006,Inventory Check,05-02-2024 10:35,Supplier_C,Mumbai_WH,1.9,693,Completed
+CASE_006,Supplier Confirmation,05-02-2024 15:32,Supplier_C,Mumbai_WH,0.5,651,Completed
+CASE_006,Packaging,05-02-2024 21:15,Supplier_C,Mumbai_WH,1.5,615,Completed
+CASE_006,Shipping,06-02-2024 03:37,Supplier_C,Mumbai_WH,1.8,579,Completed
+CASE_006,Delivery,07-02-2024 16:30,Supplier_C,Mumbai_WH,1.3,531,Completed
+CASE_007,Order Created,10-01-2024 13:48,Supplier_C,Bangalore_WH,1.9,804,Completed
+CASE_007,Inventory Check,10-01-2024 16:26,Supplier_C,Bangalore_WH,1.6,748,Completed
+CASE_007,Supplier Confirmation,10-01-2024 21:54,Supplier_C,Bangalore_WH,0.1,727,Completed
+CASE_007,Packaging,11-01-2024 05:32,Supplier_C,Bangalore_WH,1.9,685,Completed
+CASE_007,Shipping,11-01-2024 16:52,Supplier_C,Bangalore_WH,1.5,671,Completed
+CASE_007,Delivery,13-01-2024 03:55,Supplier_C,Bangalore_WH,0.1,615,Completed
+CASE_008,Order Created,31-01-2024 16:10,Supplier_C,Delhi_WH,1.4,738,Completed
+CASE_008,Inventory Check,31-01-2024 18:27,Supplier_C,Delhi_WH,2,698,Completed
+CASE_008,Supplier Confirmation,01-02-2024 00:04,Supplier_C,Delhi_WH,0.7,642,Completed
+CASE_008,Packaging,01-02-2024 05:19,Supplier_C,Delhi_WH,0.9,594,Completed
+CASE_008,Shipping,01-02-2024 10:42,Supplier_C,Delhi_WH,0.4,570,Completed
+CASE_008,Delivery,02-02-2024 18:31,Supplier_C,Delhi_WH,0,538,Completed
+CASE_009,Order Created,01-01-2024 09:45,Supplier_C,Delhi_WH,1,475,Completed
+CASE_009,Inventory Check,01-01-2024 12:11,Supplier_C,Delhi_WH,0.3,421,Completed
+CASE_009,Supplier Confirmation,01-01-2024 14:11,Supplier_C,Delhi_WH,1.2,367,Completed
+CASE_009,Packaging,01-01-2024 22:48,Supplier_C,Delhi_WH,1.6,340,Completed
+CASE_009,Shipping,02-01-2024 09:26,Supplier_C,Delhi_WH,0.8,268,Completed
+CASE_009,Delivery,03-01-2024 00:47,Supplier_C,Delhi_WH,0.2,250,Completed
+CASE_010,Order Created,30-01-2024 08:43,Supplier_B,Mumbai_WH,0.4,501,Completed
+CASE_010,Inventory Check,30-01-2024 10:35,Supplier_B,Mumbai_WH,0.3,451,Completed
+CASE_010,Supplier Confirmation,30-01-2024 13:50,Supplier_B,Mumbai_WH,0.6,421,Completed
+CASE_010,Packaging,30-01-2024 16:47,Supplier_B,Mumbai_WH,1.7,391,Completed
+CASE_010,Shipping,31-01-2024 02:35,Supplier_B,Mumbai_WH,0.9,371,Completed
+CASE_010,Delivery,01-02-2024 20:19,Supplier_B,Mumbai_WH,1.7,291,Completed
+CASE_011,Order Created,04-02-2024 08:05,Supplier_A,Delhi_WH,0.3,228,Completed
+CASE_011,Inventory Check,04-02-2024 10:16,Supplier_A,Delhi_WH,2,206,Completed
+CASE_011,Supplier Confirmation,04-02-2024 15:49,Supplier_A,Delhi_WH,1.9,162,Completed
+CASE_011,Packaging,04-02-2024 20:43,Supplier_A,Delhi_WH,0.9,74,Completed
+CASE_011,Shipping,05-02-2024 04:00,Supplier_A,Delhi_WH,1.4,19,Completed
+CASE_011,Delivery,06-02-2024 01:06,Supplier_A,Delhi_WH,2,10,Completed
+CASE_012,Order Created,10-01-2024 11:18,Supplier_C,Bangalore_WH,1.5,555,Completed
+CASE_012,Inventory Check,10-01-2024 13:37,Supplier_C,Bangalore_WH,1.6,459,Completed
+CASE_012,Supplier Confirmation,10-01-2024 16:24,Supplier_C,Bangalore_WH,34.8,435,Delayed
+CASE_012,Packaging,12-01-2024 09:36,Supplier_C,Bangalore_WH,2.6,411,Completed
+CASE_012,Shipping,12-01-2024 15:38,Supplier_C,Bangalore_WH,46.9,387,Delayed
+CASE_012,Delivery,15-01-2024 13:49,Supplier_C,Bangalore_WH,2.6,303,Completed
+CASE_013,Order Created,06-02-2024 11:37,Supplier_B,Delhi_WH,1.4,10,Completed
+CASE_013,Inventory Check,06-02-2024 14:24,Supplier_B,Delhi_WH,0.5,10,Completed
+CASE_013,Supplier Confirmation,06-02-2024 17:45,Supplier_B,Delhi_WH,72.4,10,Failed
+CASE_013,Packaging,09-02-2024 22:40,Supplier_B,Delhi_WH,0,7,Failed
+CASE_013,Shipping,09-02-2024 23:52,Supplier_B,Delhi_WH,0,9,Failed
+CASE_013,Delivery,10-02-2024 00:22,Supplier_B,Delhi_WH,0,5,Failed
+CASE_014,Order Created,02-02-2024 12:08,Supplier_A,Delhi_WH,0.6,10,Completed
+CASE_014,Inventory Check,02-02-2024 14:37,Supplier_A,Delhi_WH,1.3,10,Completed
+CASE_014,Supplier Confirmation,02-02-2024 19:34,Supplier_A,Delhi_WH,1.3,10,Completed
+CASE_014,Packaging,03-02-2024 04:09,Supplier_A,Delhi_WH,0.6,10,Completed
+CASE_014,Shipping,03-02-2024 10:20,Supplier_A,Delhi_WH,0.2,10,Completed
+CASE_014,Delivery,04-02-2024 04:13,Supplier_A,Delhi_WH,0.5,10,Completed
+CASE_015,Order Created,18-01-2024 12:38,Supplier_A,Bangalore_WH,0.1,183,Completed
+CASE_015,Inventory Check,18-01-2024 13:32,Supplier_A,Bangalore_WH,0.8,78,Completed
+CASE_015,Supplier Confirmation,18-01-2024 16:22,Supplier_A,Bangalore_WH,0.1,18,Completed
+CASE_015,Packaging,18-01-2024 22:36,Supplier_A,Bangalore_WH,1.5,10,Completed
+CASE_015,Shipping,19-01-2024 09:04,Supplier_A,Bangalore_WH,2,10,Completed
+CASE_015,Delivery,20-01-2024 17:16,Supplier_A,Bangalore_WH,1.5,10,Completed
+CASE_016,Order Created,01-01-2024 09:04,Supplier_C,Bangalore_WH,0.3,10,Completed
+CASE_016,Inventory Check,01-01-2024 11:17,Supplier_C,Bangalore_WH,0.7,10,Completed
+CASE_016,Supplier Confirmation,01-01-2024 15:03,Supplier_C,Bangalore_WH,1.9,10,Completed
+CASE_016,Packaging,01-01-2024 19:51,Supplier_C,Bangalore_WH,1.8,10,Completed
+CASE_016,Shipping,02-01-2024 00:54,Supplier_C,Bangalore_WH,1.4,10,Completed
+CASE_016,Delivery,03-01-2024 03:35,Supplier_C,Bangalore_WH,0.2,10,Completed
+CASE_017,Order Created,17-02-2024 10:59,Supplier_C,Mumbai_WH,1.6,223,Completed
+CASE_017,Inventory Check,17-02-2024 14:28,Supplier_C,Mumbai_WH,1.6,138,Completed
+CASE_017,Supplier Confirmation,17-02-2024 19:40,Supplier_C,Mumbai_WH,1.5,10,Completed
+CASE_017,Packaging,18-02-2024 05:01,Supplier_C,Mumbai_WH,0.5,10,Completed
+CASE_017,Shipping,18-02-2024 14:12,Supplier_C,Mumbai_WH,1.4,10,Completed
+CASE_017,Delivery,20-02-2024 11:20,Supplier_C,Mumbai_WH,26.8,10,Failed
+CASE_018,Order Created,28-02-2024 15:22,Supplier_B,Delhi_WH,0.1,10,Completed
+CASE_018,Inventory Check,28-02-2024 16:25,Supplier_B,Delhi_WH,0.6,10,Completed
+CASE_018,Supplier Confirmation,28-02-2024 20:24,Supplier_B,Delhi_WH,1,10,Completed
+CASE_018,Packaging,29-02-2024 00:46,Supplier_B,Delhi_WH,2,10,Completed
+CASE_018,Shipping,29-02-2024 05:56,Supplier_B,Delhi_WH,0.7,10,Completed
+CASE_018,Delivery,01-03-2024 01:35,Supplier_B,Delhi_WH,0.2,10,Completed
+CASE_019,Order Created,17-01-2024 08:06,Supplier_B,Delhi_WH,0.4,10,Completed
+CASE_019,Inventory Check,17-01-2024 09:53,Supplier_B,Delhi_WH,1.4,10,Completed
+CASE_019,Supplier Confirmation,17-01-2024 13:19,Supplier_B,Delhi_WH,1,10,Completed
+CASE_019,Packaging,17-01-2024 21:03,Supplier_B,Delhi_WH,1.1,10,Completed
+CASE_019,Shipping,18-01-2024 04:12,Supplier_B,Delhi_WH,1.9,10,Completed
+CASE_019,Delivery,20-01-2024 05:32,Supplier_B,Delhi_WH,1.3,10,Completed
+CASE_020,Order Created,12-02-2024 13:39,Supplier_B,Mumbai_WH,1.4,10,Completed
+CASE_020,Inventory Check,12-02-2024 16:01,Supplier_B,Mumbai_WH,0.3,10,Completed
+CASE_020,Supplier Confirmation,12-02-2024 19:51,Supplier_B,Mumbai_WH,1.3,10,Completed
+CASE_020,Packaging,13-02-2024 03:29,Supplier_B,Mumbai_WH,1.4,10,Completed
+CASE_020,Shipping,13-02-2024 09:59,Supplier_B,Mumbai_WH,1.2,10,Completed
+CASE_020,Delivery,14-02-2024 10:19,Supplier_B,Mumbai_WH,0.8,10,Completed
+CASE_021,Order Created,28-01-2024 17:38,Supplier_A,Mumbai_WH,1.5,10,Completed
+CASE_021,Inventory Check,28-01-2024 20:36,Supplier_A,Mumbai_WH,0.2,10,Completed
+CASE_021,Supplier Confirmation,28-01-2024 23:12,Supplier_A,Mumbai_WH,1.3,10,Completed
+CASE_021,Packaging,29-01-2024 05:09,Supplier_A,Mumbai_WH,0.7,10,Completed
+CASE_021,Shipping,29-01-2024 10:21,Supplier_A,Mumbai_WH,1.9,10,Completed
+CASE_021,Delivery,30-01-2024 17:17,Supplier_A,Mumbai_WH,1.3,10,Completed
+CASE_022,Order Created,03-01-2024 11:30,Supplier_A,Delhi_WH,1,10,Completed
+CASE_022,Inventory Check,03-01-2024 13:55,Supplier_A,Delhi_WH,0.3,10,Completed
+CASE_022,Supplier Confirmation,03-01-2024 17:31,Supplier_A,Delhi_WH,0,10,Completed
+CASE_022,Packaging,03-01-2024 22:15,Supplier_A,Delhi_WH,1.7,10,Completed
+CASE_022,Shipping,04-01-2024 09:09,Supplier_A,Delhi_WH,1.6,10,Completed
+CASE_022,Delivery,05-01-2024 19:28,Supplier_A,Delhi_WH,0.4,10,Completed
+CASE_023,Order Created,05-02-2024 11:58,Supplier_C,Bangalore_WH,1.8,10,Completed
+CASE_023,Inventory Check,05-02-2024 15:32,Supplier_C,Bangalore_WH,1.6,10,Completed
+CASE_023,Supplier Confirmation,05-02-2024 19:30,Supplier_C,Bangalore_WH,0.9,10,Completed
+CASE_023,Packaging,06-02-2024 03:13,Supplier_C,Bangalore_WH,0.9,10,Completed
+CASE_023,Shipping,06-02-2024 11:47,Supplier_C,Bangalore_WH,1.5,10,Completed
+CASE_023,Delivery,08-02-2024 12:51,Supplier_C,Bangalore_WH,0.9,10,Completed
+CASE_024,Order Created,19-02-2024 16:31,Supplier_A,Bangalore_WH,0.2,10,Completed
+CASE_024,Inventory Check,19-02-2024 18:09,Supplier_A,Bangalore_WH,0.5,10,Completed
+CASE_024,Supplier Confirmation,19-02-2024 20:28,Supplier_A,Bangalore_WH,0.3,10,Completed
+CASE_024,Packaging,19-02-2024 23:14,Supplier_A,Bangalore_WH,0.1,10,Completed
+CASE_024,Shipping,20-02-2024 04:20,Supplier_A,Bangalore_WH,0.7,10,Completed
+CASE_024,Delivery,21-02-2024 02:49,Supplier_A,Bangalore_WH,0.8,10,Completed
+CASE_025,Order Created,19-02-2024 17:44,Supplier_A,Mumbai_WH,1.7,10,Completed
+CASE_025,Inventory Check,19-02-2024 19:57,Supplier_A,Mumbai_WH,0.8,10,Completed
+CASE_025,Supplier Confirmation,20-02-2024 00:24,Supplier_A,Mumbai_WH,1.5,10,Completed
+CASE_025,Packaging,20-02-2024 07:21,Supplier_A,Mumbai_WH,1.2,10,Completed
+CASE_025,Shipping,20-02-2024 14:53,Supplier_A,Mumbai_WH,1,10,Completed
+CASE_025,Delivery,22-02-2024 13:50,Supplier_A,Mumbai_WH,0.9,10,Completed
+CASE_026,Order Created,13-02-2024 14:46,Supplier_A,Mumbai_WH,1.3,10,Completed
+CASE_026,Inventory Check,13-02-2024 16:48,Supplier_A,Mumbai_WH,1.3,10,Completed
+CASE_026,Supplier Confirmation,13-02-2024 20:30,Supplier_A,Mumbai_WH,1.7,10,Completed
+CASE_026,Packaging,14-02-2024 00:58,Supplier_A,Mumbai_WH,0.1,10,Completed
+CASE_026,Shipping,14-02-2024 08:26,Supplier_A,Mumbai_WH,0.7,10,Completed
+CASE_026,Delivery,14-02-2024 22:06,Supplier_A,Mumbai_WH,0.7,10,Completed
+CASE_027,Order Created,23-02-2024 14:16,Supplier_B,Mumbai_WH,2.3,10,Completed
+CASE_027,Inventory Check,23-02-2024 18:19,Supplier_B,Mumbai_WH,4.6,10,Delayed
+CASE_027,Supplier Confirmation,24-02-2024 01:19,Supplier_B,Mumbai_WH,34.5,10,Delayed
+CASE_027,Packaging,25-02-2024 18:19,Supplier_B,Mumbai_WH,2.5,10,Completed
+CASE_027,Shipping,26-02-2024 00:11,Supplier_B,Mumbai_WH,19.4,10,Delayed
+CASE_027,Delivery,28-02-2024 17:51,Supplier_B,Mumbai_WH,1.4,10,Completed
+CASE_028,Order Created,30-01-2024 12:49,Supplier_A,Bangalore_WH,1.2,10,Completed
+CASE_028,Inventory Check,30-01-2024 15:04,Supplier_A,Bangalore_WH,2.9,12,Failed
+CASE_028,Supplier Confirmation,30-01-2024 20:47,Supplier_A,Bangalore_WH,0,8,Failed
+CASE_028,Packaging,30-01-2024 22:41,Supplier_A,Bangalore_WH,0,10,Failed
+CASE_028,Shipping,30-01-2024 23:18,Supplier_A,Bangalore_WH,0,10,Failed
+CASE_028,Delivery,30-01-2024 23:58,Supplier_A,Bangalore_WH,0,9,Failed
+CASE_029,Order Created,06-02-2024 08:22,Supplier_C,Delhi_WH,0.3,10,Completed
+CASE_029,Inventory Check,06-02-2024 09:57,Supplier_C,Delhi_WH,14.2,10,Delayed
+CASE_029,Supplier Confirmation,07-02-2024 03:09,Supplier_C,Delhi_WH,19.8,10,Delayed
+CASE_029,Packaging,08-02-2024 01:21,Supplier_C,Delhi_WH,1.3,10,Completed
+CASE_029,Shipping,08-02-2024 10:11,Supplier_C,Delhi_WH,42.3,10,Delayed
+CASE_029,Delivery,10-02-2024 16:57,Supplier_C,Delhi_WH,0.8,10,Completed
+CASE_030,Order Created,22-02-2024 17:17,Supplier_C,Mumbai_WH,1.2,10,Completed
+CASE_030,Inventory Check,22-02-2024 19:28,Supplier_C,Mumbai_WH,0.7,10,Completed
+CASE_030,Supplier Confirmation,22-02-2024 21:54,Supplier_C,Mumbai_WH,1.7,10,Completed
+CASE_030,Packaging,23-02-2024 07:12,Supplier_C,Mumbai_WH,1,10,Completed
+CASE_030,Shipping,23-02-2024 13:09,Supplier_C,Mumbai_WH,1.6,10,Completed
+CASE_030,Delivery,24-02-2024 18:59,Supplier_C,Mumbai_WH,0.6,10,Completed
