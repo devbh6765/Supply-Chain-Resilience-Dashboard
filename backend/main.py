@@ -7,7 +7,11 @@ import numpy as np
 app = FastAPI()
 
 # Load CSV file
-df = pd.read_csv("../data/log.csv")
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+df = pd.read_csv(BASE_DIR / "data" / "log.csv")
 
 # Home route
 @app.get("/")
