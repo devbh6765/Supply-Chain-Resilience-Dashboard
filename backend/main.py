@@ -2,11 +2,8 @@ from fastapi import FastAPI
 import pandas as pd
 from collections import Counter
 import numpy as np
-
-# Create FastAPI app
-app = FastAPI()
 from fastapi.middleware.cors import CORSMiddleware
-
+# Create FastAPI app
 app = FastAPI()
 
 app.add_middleware(

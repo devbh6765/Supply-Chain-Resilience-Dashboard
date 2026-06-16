@@ -10,7 +10,10 @@ import { StatCard, LoadingCard, ErrorBanner, SectionHeading } from '../component
 const PIE_COLORS = { Completed: '#10b981', Delayed: '#f59e0b', Failed: '#ef4444' }
 
 export default function Overview() {
-  const { data, loading, error } = useFetch('/api/summary', fallbackSummary)
+  const { data, loading, error } = useFetch(
+  'https://supply-chain-resilience-dashboard.onrender.com/summary',
+  fallbackSummary
+)
 
   if (loading) return (
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
