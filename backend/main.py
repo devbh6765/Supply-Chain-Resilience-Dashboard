@@ -49,7 +49,6 @@ def get_summary():
         "delay_rate_pct": delayed_percentage,
         "failure_rate_pct": failed_percentage,
     }
-
 @app.get("/process-flow")
 def process_flow():
 

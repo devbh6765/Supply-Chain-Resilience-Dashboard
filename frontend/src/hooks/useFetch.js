@@ -23,8 +23,9 @@ export function useFetch(url, fallbackData = null) {
       } catch (err) {
         if (!cancelled) {
           setError(err.message)
-          // Use fallback data so the UI still renders something useful
-          if (fallbackData) setData(fallbackData)
+          if (fallbackData !== null) {
+            setData(fallbackData)
+          }
         }
       } finally {
         if (!cancelled) setLoading(false)
