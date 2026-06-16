@@ -5,7 +5,17 @@ import numpy as np
 
 # Create FastAPI app
 app = FastAPI()
+from fastapi.middleware.cors import CORSMiddleware
 
+app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # we'll tighten later
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # Load CSV file
 from pathlib import Path
 
