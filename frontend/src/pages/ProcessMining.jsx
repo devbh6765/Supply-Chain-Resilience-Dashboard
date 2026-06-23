@@ -12,7 +12,7 @@ import {
 export default function ProcessMining() {
 
   const { data, loading, error } = useFetch(
-    '/api/process-flow',
+    'https://supply-chain-resilience-dashboard.onrender.com/process-flow',
     fallbackProcessFlow
   )
 

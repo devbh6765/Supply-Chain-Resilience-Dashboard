@@ -33,7 +33,7 @@ const RISK_COLORS = {
 export default function Suppliers() {
 
   const { data, loading, error } = useFetch(
-    '/api/suppliers',
+  'https://supply-chain-resilience-dashboard.onrender.com/suppliers',
     fallbackSuppliers
   )
 

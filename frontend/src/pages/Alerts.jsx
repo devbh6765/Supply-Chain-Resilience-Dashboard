@@ -28,7 +28,7 @@ const PIE_COLORS = [
 export default function Alerts() {
 
   const { data, loading, error } = useFetch(
-    '/api/alerts',
+  'https://supply-chain-resilience-dashboard.onrender.com/alerts',
     fallbackAlerts
   )
 

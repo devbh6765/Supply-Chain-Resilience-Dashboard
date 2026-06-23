@@ -13,7 +13,7 @@ import {
 export default function Bottlenecks() {
 
   const { data, loading, error } = useFetch(
-    '/api/bottlenecks',
+  'https://supply-chain-resilience-dashboard.onrender.com/bottlenecks',
     fallbackBottlenecks
   )
 
